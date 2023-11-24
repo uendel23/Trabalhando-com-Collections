@@ -3,6 +3,8 @@ import list.OrdenarPessoa.OrdenacaoPessoa;
 import list.carrinho_de_compras.CarrinhoDeCompras;
 import list.catalogo_de_livros.CatalogoLivros;
 import list.soma_de_numeros.SomaDeNumeros;
+import set.conjunto_de_convidados.ConjuntoConvidado;
+import set.conjunto_de_convidados.Convidado;
 
 import java.nio.charset.Charset;
 
@@ -79,6 +81,28 @@ public class Main {
 //
 //        System.out.println(somaDeNumeros.encontrarMaiorNumero());
 //        System.out.println(somaDeNumeros.encontrarMenorNumero());
+
+
+        //SET CONVIDADOS
+
+//        ConjuntoConvidado convidado = new ConjuntoConvidado();
+//
+//        convidado.adicionarConvidado("joao", 5);
+//        convidado.adicionarConvidado("jose", 8);
+//        convidado.adicionarConvidado("maria", 2);
+//        convidado.adicionarConvidado("Carlos", 6);
+//        convidado.adicionarConvidado("tainá", 1);
+//        convidado.adicionarConvidado("joao", 4);
+//
+//        convidado.exibirConvidados();
+//
+//        convidado.removerConvidadoPorCodigoConvite(5);
+//        convidado.removerConvidadoPorCodigoConvite(2);
+//        convidado.removerConvidadoPorCodigoConvite(4);
+//
+//        convidado.exibirConvidados();
+
+
 
 
     }
