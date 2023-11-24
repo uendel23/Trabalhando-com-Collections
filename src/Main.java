@@ -2,6 +2,7 @@ import list.OperacoesBasicas.ListaTarefas;
 import list.OrdenarPessoa.OrdenacaoPessoa;
 import list.carrinho_de_compras.CarrinhoDeCompras;
 import list.catalogo_de_livros.CatalogoLivros;
+import list.soma_de_numeros.SomaDeNumeros;
 
 import java.nio.charset.Charset;
 
@@ -50,15 +51,35 @@ public class Main {
 //        System.out.println(livros.pesquisaIntervaloAnos(2020,2025));
 
             //LISTA DE PESSOAS
-        OrdenacaoPessoa pessoa = new OrdenacaoPessoa();
-        pessoa.adicionarPessoa("pessoa1", 20, 1.75);
-        pessoa.adicionarPessoa("pessoa2", 30, 1.80);
-        pessoa.adicionarPessoa("pessoa3", 25, 1.69);
-        pessoa.adicionarPessoa("pessoa4", 90, 1.53);
-        pessoa.adicionarPessoa("pessoa5", 17, 1.58);
+//        OrdenacaoPessoa pessoa = new OrdenacaoPessoa();
+//        pessoa.adicionarPessoa("pessoa1", 20, 1.75);
+//        pessoa.adicionarPessoa("pessoa2", 30, 1.80);
+//        pessoa.adicionarPessoa("pessoa3", 25, 1.69);
+//        pessoa.adicionarPessoa("pessoa4", 90, 1.53);
+//        pessoa.adicionarPessoa("pessoa5", 17, 1.58);
+//
+//        System.out.println(pessoa.ordenarPorIdade());
+//        System.out.println(pessoa.ordenarPorAltura());
 
-        System.out.println(pessoa.ordenarPorIdade());
-        System.out.println(pessoa.ordenarPorAltura());
+
+        //LISTA DE SOMA DOS NUMEROS
+
+//        SomaDeNumeros somaDeNumeros = new SomaDeNumeros();
+//        somaDeNumeros.adicionarNumero(10);
+//        somaDeNumeros.adicionarNumero(7);
+//        somaDeNumeros.adicionarNumero(15);
+//        somaDeNumeros.adicionarNumero(2);
+//        somaDeNumeros.adicionarNumero(4);
+//        somaDeNumeros.adicionarNumero(35);
+//        somaDeNumeros.adicionarNumero(8);
+//
+//        somaDeNumeros.exibirNumeros();
+//
+//        System.out.println(somaDeNumeros.calcularSoma());
+//
+//        System.out.println(somaDeNumeros.encontrarMaiorNumero());
+//        System.out.println(somaDeNumeros.encontrarMenorNumero());
+
 
     }
 }
