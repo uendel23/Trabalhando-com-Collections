@@ -3,6 +3,7 @@ import list.OrdenarPessoa.OrdenacaoPessoa;
 import list.carrinho_de_compras.CarrinhoDeCompras;
 import list.catalogo_de_livros.CatalogoLivros;
 import list.soma_de_numeros.SomaDeNumeros;
+import set.agenda_de_contatos.AgendaContato;
 import set.conjunto_de_convidados.ConjuntoConvidado;
 import set.conjunto_de_convidados.Convidado;
 
@@ -101,6 +102,29 @@ public class Main {
 //        convidado.removerConvidadoPorCodigoConvite(4);
 //
 //        convidado.exibirConvidados();
+
+
+            //SET AGENDA DE CONTATOS//
+
+//        AgendaContato contatos = new AgendaContato();
+//
+//        contatos.adicionarContato("maria", 123456789);
+//        contatos.adicionarContato("pedro", 789456);
+//        contatos.adicionarContato("carlos", 4561378);
+//        contatos.adicionarContato("joao", 1789123456);
+//
+//        contatos.exibirContatos();
+//
+//        System.out.println(contatos.pesquisarPorNome("pedro"));
+//
+//        contatos.atualizarNumeroContato("pedro", 748889996);
+//
+//        System.out.println(contatos.pesquisarPorNome("pedro"));
+//
+//        contatos.removerContato(748889996);
+//
+//        contatos.exibirContatos();
+
 
 
 
