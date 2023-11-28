@@ -1,6 +1,11 @@
 import map.agenda_contatos.AgendaContatos;
+import map.agenda_de_eventos.AgendaEventos;
 import map.estoque_de_produtos.EstoqueDeProdutos;
 import map.estoque_de_produtos.Produto;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.Month;
 
 public class Main {
     public static void main(String[] args) {
@@ -163,6 +168,17 @@ public class Main {
 //        System.out.println(produtos.calcularValorTotalDoEstoque());
 //
 //        System.out.println(produtos.obterValorMaisAlto());
+
+                //MAP AGENDA DE EVENTOS
+
+//        AgendaEventos eventos = new AgendaEventos();
+//        eventos.adicionarEvento(LocalDate.of(2023, Month.DECEMBER,25),"evento 1", "banda guns n roses");
+//        eventos.adicionarEvento(LocalDate.of(2024, Month.JANUARY,15),"evento 2", "banda os parças");
+//        eventos.adicionarEvento(LocalDate.of(2023, Month.DECEMBER,31),"evento 3", "banda skank");
+//
+//        eventos.exibirAgenda();
+//
+//        eventos.exibirProximoEvento();
 
 
 
