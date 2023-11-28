@@ -1,4 +1,6 @@
 import map.agenda_contatos.AgendaContatos;
+import map.estoque_de_produtos.EstoqueDeProdutos;
+import map.estoque_de_produtos.Produto;
 
 public class Main {
     public static void main(String[] args) {
@@ -133,18 +135,35 @@ public class Main {
 
         // MAP AGENDA DE CONTATOS
 
+//        AgendaContatos contatos = new AgendaContatos();
+//        contatos.adicinarContato("maria", 748885552);
+//        contatos.adicinarContato("João", 749995522);
+//
+//        contatos.exibircContatos();
+//
+//        System.out.println(contatos.pesquisarPorNome("maria"));
+//
+//        contatos.removerContato("maria");
+//
+//        contatos.exibircContatos();
 
-        AgendaContatos contatos = new AgendaContatos();
-        contatos.adicinarContato("maria", 748885552);
-        contatos.adicinarContato("João", 749995522);
 
-        contatos.exibircContatos();
+                // MAP ESTOWUE DE PRODUTOS
 
-        System.out.println(contatos.pesquisarPorNome("maria"));
+//        EstoqueDeProdutos produtos = new EstoqueDeProdutos();
+//
+//        produtos.adicionarProduto(123L, "produto A", 5, 55.85);
+//        produtos.adicionarProduto(124L, "produto B", 2, 15.50);
+//        produtos.adicionarProduto(125L, "produto C", 15, 2.99);
+//        produtos.adicionarProduto(126L, "produto D", 8, 10.15);
+//        produtos.adicionarProduto(127L, "produto F", 16, 10000.00);
+//
+//        produtos.exibirProdutos();
+//
+//        System.out.println(produtos.calcularValorTotalDoEstoque());
+//
+//        System.out.println(produtos.obterValorMaisAlto());
 
-        contatos.removerContato("maria");
-
-        contatos.exibircContatos();
 
 
     }
