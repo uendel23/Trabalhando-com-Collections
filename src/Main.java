@@ -1,14 +1,4 @@
-import list.OperacoesBasicas.ListaTarefas;
-import list.OrdenarPessoa.OrdenacaoPessoa;
-import list.carrinho_de_compras.CarrinhoDeCompras;
-import list.catalogo_de_livros.CatalogoLivros;
-import list.soma_de_numeros.SomaDeNumeros;
-import set.agenda_de_contatos.AgendaContato;
-import set.cadastro_de_produtos.CadastroProduto;
-import set.conjunto_de_convidados.ConjuntoConvidado;
-import set.conjunto_de_convidados.Convidado;
-
-import java.nio.charset.Charset;
+import map.agenda_contatos.AgendaContatos;
 
 public class Main {
     public static void main(String[] args) {
@@ -130,15 +120,32 @@ public class Main {
 
             //SET CADASTRO DE PRODUTO
 
-        CadastroProduto produto = new CadastroProduto();
+//        CadastroProduto produto = new CadastroProduto();
+//
+//        produto.adicionarProduto("teclado", 147, 45.82, 12);
+//        produto.adicionarProduto("mouse", 124, 25.50, 10);
+//        produto.adicionarProduto("monitor", 325, 1125.80, 25);
+//        produto.adicionarProduto("fones", 111, 95.30, 10);
+//
+//        System.out.println(produto.exibirProdutoPorNome());
+//        System.out.println(produto.exibirProdutoPorPreco());
 
-        produto.adicionarProduto("teclado", 147, 45.82, 12);
-        produto.adicionarProduto("mouse", 124, 25.50, 10);
-        produto.adicionarProduto("monitor", 325, 1125.80, 25);
-        produto.adicionarProduto("fones", 111, 95.30, 10);
 
-        System.out.println(produto.exibirProdutoPorNome());
-        System.out.println(produto.exibirProdutoPorPreco());
+        // MAP AGENDA DE CONTATOS
+
+
+        AgendaContatos contatos = new AgendaContatos();
+        contatos.adicinarContato("maria", 748885552);
+        contatos.adicinarContato("João", 749995522);
+
+        contatos.exibircContatos();
+
+        System.out.println(contatos.pesquisarPorNome("maria"));
+
+        contatos.removerContato("maria");
+
+        contatos.exibircContatos();
+
 
     }
 }
